@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "limits": {
+    "maxServers": 8,
+    "maxToolsPerServer": 64,
+    "maxConcurrentCalls": 8,
+    "startupTimeoutMs": 5000,
+    "requestTimeoutMs": 30000
+  },
+  "servers": {
+    "example-local": {
+      "transport": "stdio",
+      "label": "Example local MCP",
+      "command": "/absolute/path/to/an-installed-mcp-server",
+      "args": [],
+      "env": {},
+      "enabled": false,
+      "required": false
+    },
+    "example-remote": {
+      "transport": "streamable-http",
+      "label": "Example remote MCP",
+      "url": "https://mcp.example.invalid/mcp",
+      "auth": {
+        "type": "static-bearer",
+        "environment": "OCTET_MCP_EXAMPLE_TOKEN"
+      },
+      "enabled": false,
+      "required": false
+    }
+  },
+  "trustedProjects": []
+}

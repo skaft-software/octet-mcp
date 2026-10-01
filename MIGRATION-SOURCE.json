@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/skaft-software/octet",
+  "revision": "6b0717548d420909b3ee991bf940011e578b12eb",
+  "source_path": "extensions/octet-mcp",
+  "status": "staged-source-snapshot",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "source_path": "extensions/octet-mcp/CHANGELOG.md",
+      "mode": "100644",
+      "sha256": "6947c1f66f92c8f44fa35976a503793c921501c018510d9a56ad493a5704dee9"
+    },
+    {
+      "path": "README.md",
+      "source_path": "extensions/octet-mcp/README.md",
+      "mode": "100644",
+      "sha256": "7d12492a95779dbe20efb3cf3ec87611cbc8beab1e590bfbdb2cd66cd6f44001"
+    },
+    {
+      "path": "REFERENCE.md",
+      "source_path": "extensions/octet-mcp/REFERENCE.md",
+      "mode": "100644",
+      "sha256": "e77064463d3d3f2eb021292e1c38dbe10a6a07690a9af505745ffd6149cfebb2"
+    },
+    {
+      "path": "config.cua-driver.example.json",
+      "source_path": "extensions/octet-mcp/config.cua-driver.example.json",
+      "mode": "100644",
+      "sha256": "7d34b67cdfde8c8698418ce469e9a3ea7949c032bd758e6bcd3948db580104a0"
+    },
+    {
+      "path": "config.example.json",
+      "source_path": "extensions/octet-mcp/config.example.json",
+      "mode": "100644",
+      "sha256": "9d6ffda297cc688c862c579321e459c257982045aebe7df36424c748c6440460"
+    },
+    {
+      "path": "config.schema.json",
+      "source_path": "extensions/octet-mcp/config.schema.json",
+      "mode": "100644",
+      "sha256": "741a9ad76bc3912195e10050681aea07055e3228578604c9cd9dc3183e7bf00e"
+    },
+    {
+      "path": "extension.toml",
+      "source_path": "extensions/octet-mcp/extension.toml",
+      "mode": "100644",
+      "sha256": "0630dca5797eb7e3c87638f44a786f2e9d70e3cf3f58078aad77a23945b4b917"
+    },
+    {
+      "path": "fixtures/configs/real-local.json",
+      "source_path": "extensions/octet-mcp/fixtures/configs/real-local.json",
+      "mode": "100644",
+      "sha256": "6a4569eff30d7f1c1303a0ca32e9742fb238c9a7a689b32d16737521d4e53e46"
+    },
+    {
+      "path": "fixtures/fake_mcp_server.py",
+      "source_path": "extensions/octet-mcp/fixtures/fake_mcp_server.py",
+      "mode": "100755",
+      "sha256": "6a94e0b9e042e3958f85a76e5a88c1d5bbf348676ac01e47d040e85fad4bc68c"
+    },
+    {
+      "path": "fixtures/presentation/activity-ambiguous.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/activity-ambiguous.json",
+      "mode": "100644",
+      "sha256": "b30080b8ac79a55c6fb0cec5b30967a3954993229ed519595107f7f2f63d6621"
+    },
+    {
+      "path": "fixtures/presentation/activity-cancelled.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/activity-cancelled.json",
+      "mode": "100644",
+      "sha256": "16acb6c3cdaef7988370b7fe6f00f59f0504c655ac169fd35591072773df1b1c"
+    },
+    {
+      "path": "fixtures/presentation/activity-failed.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/activity-failed.json",
+      "mode": "100644",
+      "sha256": "31a8c864e122cda39d66e3fa70f5ada39ec0e4ea8e09b516ce8f96c3919285f8"
+    },
+    {
+      "path": "fixtures/presentation/activity-running.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/activity-running.json",
+      "mode": "100644",
+      "sha256": "a76d7f3957a828b4f1c0c0147b367f632853010280b3021236fd56e9187d76fb"
+    },
+    {
+      "path": "fixtures/presentation/activity-success.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/activity-success.json",
+      "mode": "100644",
+      "sha256": "d15780c1c58c8349dd19de0bce1ae9c29acf4731dac8a294380c67992fe3f33a"
+    },
+    {
+      "path": "fixtures/presentation/connecting.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/connecting.json",
+      "mode": "100644",
+      "sha256": "d79ad41fefe01a46221d82b4e7f178a1c1026d760e879c3acaa4dbeea6b4a64a"
+    },
+    {
+      "path": "fixtures/presentation/degraded.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/degraded.json",
+      "mode": "100644",
+      "sha256": "16299e078386f313983ff777d85f00575c14f81d5ee6255ebef1e9398f15a784"
+    },
+    {
+      "path": "fixtures/presentation/empty.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/empty.json",
+      "mode": "100644",
+      "sha256": "aac8d0c285829ad45d7720b3444eaa8504c2ddcca1aec15589d7212dcd9b4ef0"
+    },
+    {
+      "path": "fixtures/presentation/parked.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/parked.json",
+      "mode": "100644",
+      "sha256": "1a35da61bbe096bd229359a66ba93c5c67cab89c10a3225214730db5fe17da77"
+    },
+    {
+      "path": "fixtures/presentation/ready.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/ready.json",
+      "mode": "100644",
+      "sha256": "7735e6e1bed43b2a641e3162ce7fb58c715abb7722f36aa1b0d4be0bcb6618ef"
+    },
+    {
+      "path": "fixtures/presentation/reconnect-resync.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/reconnect-resync.json",
+      "mode": "100644",
+      "sha256": "0259df4e08faa6ce7f8aad964788abe58782ef3279fd3d1ab92eda7b6cf1e81e"
+    },
+    {
+      "path": "fixtures/presentation/refreshing.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/refreshing.json",
+      "mode": "100644",
+      "sha256": "0a129f9ec074377b4e88da2e38da8097fdf822577602640b1b01c72446a5abe4"
+    },
+    {
+      "path": "fixtures/presentation/restarted.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/restarted.json",
+      "mode": "100644",
+      "sha256": "f5f46850c0cc2348eaad0a0a6143238646f4682c9883393be2aa008dadf4ae73"
+    },
+    {
+      "path": "fixtures/presentation/stale-generation-removal.json",
+      "source_path": "extensions/octet-mcp/fixtures/presentation/stale-generation-removal.json",
+      "mode": "100644",
+      "sha256": "da2f0d730eac875cacfa0317da364535db09d1c61c561fe727dcb8567beb6758"
+    },
+    {
+      "path": "fixtures/real_mcp_server.py",
+      "source_path": "extensions/octet-mcp/fixtures/real_mcp_server.py",
+      "mode": "100755",
+      "sha256": "86cdb976915b925b016be6300b545ba5c98b99ce7a7c511b104c9bc1e7417426"
+    },
+    {
+      "path": "fixtures/tls/README.md",
+      "source_path": "extensions/octet-mcp/fixtures/tls/README.md",
+      "mode": "100644",
+      "sha256": "b6fa0629ebfd2d50d1d717ccffa18f1e2f2a5b1dd55c13dd60f2b4f7ac4922cc"
+    },
+    {
+      "path": "fixtures/tls/loopback-cert.pem",
+      "source_path": "extensions/octet-mcp/fixtures/tls/loopback-cert.pem",
+      "mode": "100644",
+      "sha256": "620309cf4365c17aadb5bd849272ecaab5b29ba57f1373515713b686f37102e5"
+    },
+    {
+      "path": "fixtures/tls/loopback-key.pem",
+      "source_path": "extensions/octet-mcp/fixtures/tls/loopback-key.pem",
+      "mode": "100644",
+      "sha256": "f6332bd5e85e2361f7199d5d6c9b4a0a1f5e15bdce9050844f5a282bc69c44b0"
+    },
+    {
+      "path": "octet-mcp",
+      "source_path": "extensions/octet-mcp/octet-mcp",
+      "mode": "100755",
+      "sha256": "13b3b677a9d63a9d1a73d19b47971e8f177a23a4fc04627fb584f309f4090622"
+    },
+    {
+      "path": "octet_mcp/__init__.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/__init__.py",
+      "mode": "100644",
+      "sha256": "fca0117b1d372f1fc221370d843a273692220435c6d8db0ee023974934fa9b4b"
+    },
+    {
+      "path": "octet_mcp/catalog.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/catalog.py",
+      "mode": "100644",
+      "sha256": "0c2e627ccff264f4de4a44fd9d356bb3651352eccce954c993d1db429243bbc0"
+    },
+    {
+      "path": "octet_mcp/config.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/config.py",
+      "mode": "100644",
+      "sha256": "784b82e35527ae29416fcdf6ae24e4bec0cae20212aadac5071aebfd3d12fa6e"
+    },
+    {
+      "path": "octet_mcp/editor.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/editor.py",
+      "mode": "100644",
+      "sha256": "f00215477780d965ee6ed95a84f8f2939aded996b31325a1c71c00780cafc6ec"
+    },
+    {
+      "path": "octet_mcp/http_network.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/http_network.py",
+      "mode": "100644",
+      "sha256": "39823d2c21b0e47b614d9e15e206af87e57905b096f50e7ba67a236ca7fbbbae"
+    },
+    {
+      "path": "octet_mcp/manager.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/manager.py",
+      "mode": "100644",
+      "sha256": "f9eb26b4c0b9597586c77cd7145aef1e3ae67b4c23ed57194a2d9d0fc2eee8fc"
+    },
+    {
+      "path": "octet_mcp/menu.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/menu.py",
+      "mode": "100644",
+      "sha256": "1d662a55f565e3d6547be5f233898e81875af305d3b35ab16620eef86bbea6d7"
+    },
+    {
+      "path": "octet_mcp/ownership.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/ownership.py",
+      "mode": "100644",
+      "sha256": "53bebfcd4312d5511a308b262a870998f95e2a98e4a48b869b8d27eab47606df"
+    },
+    {
+      "path": "octet_mcp/presentation.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/presentation.py",
+      "mode": "100644",
+      "sha256": "41cbe4721a7b651b3f4961f6d7ca9b6e27c270971d375534879c37303aeac249"
+    },
+    {
+      "path": "octet_mcp/protocol.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/protocol.py",
+      "mode": "100644",
+      "sha256": "39b703167e9bcf65a2bc306f0308c0b656dcec891ded6d67a4c6fe9584e104b2"
+    },
+    {
+      "path": "octet_mcp/runtime.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/runtime.py",
+      "mode": "100644",
+      "sha256": "9068bb8d38c422414bd814327c4857605ff911d6ebb132af1f849626688853ec"
+    },
+    {
+      "path": "octet_mcp/streamable_http.py",
+      "source_path": "extensions/octet-mcp/octet_mcp/streamable_http.py",
+      "mode": "100644",
+      "sha256": "d4924aa38acfcc1d475bafec5311cf39c20bdeb3a982e4fd78b07b876411f34c"
+    },
+    {
+      "path": "skills/cua-driver/SKILL.md",
+      "source_path": "extensions/octet-mcp/skills/cua-driver/SKILL.md",
+      "mode": "100644",
+      "sha256": "2c0f6c64fa346f809ee98793c43bf19d53332d2cc1003ce75f4c417db8ee5bcf"
+    },
+    {
+      "path": "tests/__init__.py",
+      "source_path": "extensions/octet-mcp/tests/__init__.py",
+      "mode": "100644",
+      "sha256": "8ab702f01f0501ad94ab5c31870992411d978a9e97ad9242b4bc7228c80140a2"
+    },
+    {
+      "path": "tests/helpers.py",
+      "source_path": "extensions/octet-mcp/tests/helpers.py",
+      "mode": "100644",
+      "sha256": "012bf237207e368eceb0bfc2c08d29fd963254e7e6e9f17a096a6280876f5028"
+    },
+    {
+      "path": "tests/policy_mcp_server.py",
+      "source_path": "extensions/octet-mcp/tests/policy_mcp_server.py",
+      "mode": "100644",
+      "sha256": "2935b2144e0e441dcf1ff6ede40ac07ba881273b83c52575cb32a5d21af6232d"
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "source_path": "extensions/octet-mcp/tests/test_catalog.py",
+      "mode": "100644",
+      "sha256": "5690981267f8f5f64fb418eb19f5ad7ec05b0584c7ba16d46a57893b57baa4b7"
+    },
+    {
+      "path": "tests/test_config.py",
+      "source_path": "extensions/octet-mcp/tests/test_config.py",
+      "mode": "100644",
+      "sha256": "2dbb566c119dff9f3ba6fd00e6d008f057232241c4dbc4e794fa7dd584116ca0"
+    },
+    {
+      "path": "tests/test_http_hardening.py",
+      "source_path": "extensions/octet-mcp/tests/test_http_hardening.py",
+      "mode": "100644",
+      "sha256": "4d589b0b2465219d42b1b35ad284fe372f2e0d3abffeff826e650a7599f58b53"
+    },
+    {
+      "path": "tests/test_manager.py",
+      "source_path": "extensions/octet-mcp/tests/test_manager.py",
+      "mode": "100644",
+      "sha256": "e4c8c7cd7a99951a1f2dcdf0b224beb03cf9e2ccafc1eb1f1d32c0638ffa9411"
+    },
+    {
+      "path": "tests/test_policy.py",
+      "source_path": "extensions/octet-mcp/tests/test_policy.py",
+      "mode": "100644",
+      "sha256": "8d968a0b82fceee6e49ee9d782bafd8ac7de0c83843a005279d7c6dfcdc1c1df"
+    },
+    {
+      "path": "tests/test_presentation.py",
+      "source_path": "extensions/octet-mcp/tests/test_presentation.py",
+      "mode": "100644",
+      "sha256": "6d4964fa87a3dd25c70947abc3bd7b2360ee85c2193877e5c7b9edc6b93ba2a4"
+    },
+    {
+      "path": "tests/test_protocol.py",
+      "source_path": "extensions/octet-mcp/tests/test_protocol.py",
+      "mode": "100644",
+      "sha256": "249e882313b45996377bbd19fb7619f8ee1154f1ba75949acdc0d49e0bc47a17"
+    },
+    {
+      "path": "tests/test_release.py",
+      "source_path": "extensions/octet-mcp/tests/test_release.py",
+      "mode": "100644",
+      "sha256": "b7e84f5da12f5606e0a541aeb8ef997d57ed8890828e6cb4086de853ad089fbe"
+    },
+    {
+      "path": "tests/test_runtime_protocol.py",
+      "source_path": "extensions/octet-mcp/tests/test_runtime_protocol.py",
+      "mode": "100644",
+      "sha256": "c0195c24bf12c03020e5e9a97685d84c71db7a04e824cc2d3b6a3d760e1b9544"
+    },
+    {
+      "path": "tests/test_server_manager.py",
+      "source_path": "extensions/octet-mcp/tests/test_server_manager.py",
+      "mode": "100644",
+      "sha256": "a52e0c2d88ba05d34aa306b6691910e4db1b0ebc337a0f8018e403b596fe537b"
+    },
+    {
+      "path": "tests/test_streamable_http.py",
+      "source_path": "extensions/octet-mcp/tests/test_streamable_http.py",
+      "mode": "100644",
+      "sha256": "eef8a56bc51ebc9591a6e54ef0da1a298e6695eaf310c3e3896f746fa881fa43"
+    },
+    {
+      "path": "vendor/octet_extension/__init__.py",
+      "source_path": "extensions/octet-mcp/vendor/octet_extension/__init__.py",
+      "mode": "100644",
+      "sha256": "81923364bca79a2a981e8e6d14f0117aa62094297fc38ea6bfa1228ed962cd39"
+    },
+    {
+      "path": "vendor/octet_extension/extension.py",
+      "source_path": "extensions/octet-mcp/vendor/octet_extension/extension.py",
+      "mode": "100644",
+      "sha256": "f441d23ac9e1943da285607d63f166225999569c8942b543706f791027f0ffdd"
+    },
+    {
+      "path": "vendor/octet_extension/protocol.py",
+      "source_path": "extensions/octet-mcp/vendor/octet_extension/protocol.py",
+      "mode": "100644",
+      "sha256": "44eaa235b16cc4991c2ef4d695b466a3ce84fb22ea0b12ce3776bebaa7448e02"
+    }
+  ]
+}
